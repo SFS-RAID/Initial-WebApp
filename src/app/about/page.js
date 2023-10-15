@@ -3,6 +3,7 @@
 
 import React from 'react';
 import { useRouter } from 'next/navigation';
+import linklist from '../../components/linklist.js';
 
 const AboutPage = () => {
     const router = useRouter();
@@ -16,6 +17,7 @@ const AboutPage = () => {
                 <div className="text-3xl font-bold mb-4">About Us</div>
                 <div className="text-lg mb-6">
                     This app is created for learning HTML and web development. Explore and have fun while you learn!
+                    <linklist />
                 </div>
                 <button onClick={navigateToHome}>Home</button>
             </div>

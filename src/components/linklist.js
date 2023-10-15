@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-function header(){
+function linklist(){
     return (
         <nav>
             <ul>
