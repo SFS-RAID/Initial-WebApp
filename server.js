@@ -5,6 +5,18 @@ const dev = process.env.NODE_ENV === 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
+server.use((req, res, next) => {
+    console.log(`Request received for: ${req.url}`);
+    next();
+});
+
+/* Routes
+server.get('/about', (req, res) => {
+    return app.render(req, res, '/about');
+});
+*/
+
+
 
 app.prepare().then(() => {
     const server = express();
