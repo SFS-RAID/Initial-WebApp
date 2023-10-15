@@ -1,0 +1,12 @@
+README.md
+index.js
+jsconfig.json
+next.config.js
+node_modules
+package-lock.json
+package.json
+postcss.config.js
+public
+src
+tailwind.config.js
+text.txt
