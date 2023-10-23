@@ -1,8 +1,9 @@
 
 'use client'
 
-import React from 'react';
+import React, { Component } from 'react';
 import { useRouter } from 'next/navigation';
+import TitleComponent from "../components/title-subtitle.js";
 
 export default function Home(){
     const router = useRouter();
@@ -14,6 +15,7 @@ export default function Home(){
         <div className="container mx-auto mt-20">
             <div className="bg-gray-800 p-8 rounded-lg shadow-md text-white">
                 <div className="text-3xl font-bold mb-4">Welcome to Our Website</div>
+                <TitleComponent title='ABC' subtitle='BCS' customClass='font-bold'/>
                 <div className="text-lg mb-6">
                     Explore the amazing features and content we have for you. Join our community and get started today.
                 </div>

@@ -10,12 +10,11 @@ server.use((req, res, next) => {
     next();
 });
 
-/* Routes
-server.get('/about', (req, res) => {
-    return app.render(req, res, '/about');
+/*
+server.get('/svg', (req, res) => {
+    return app.render(req, res, '/svgdisplay');
 });
 */
-
 
 
 app.prepare().then(() => {
