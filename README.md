@@ -1,3 +1,20 @@
+## NOTE
+**This is a template to create a next JS app on the Web (localhost)**
+
+This app is a mixed version of many popular JS Frameworks so that the best feature of every framework can be used
+
+This template contains ->
+- Homepage
+- About Page
+- An Example Component
+
+Dependencies ->
+- Tailwind CSS
+- Node JS
+- React JS
+- Express JS
+- Next JS 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
